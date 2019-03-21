@@ -1,10 +1,10 @@
--   id: tslint
-    name: tslint
-    entry: tslint
+-   id: tsclint
+    name: tsclint
+    entry: node_modules/.bin/tsc
     language: node
     files: \.ts$
     args: []
 
     # Use additional_dependencies to install the actual node package
-    additional_dependencies: ['tslint@5.11.0']
-    minimum_pre_commit_version: 0.7.0
+    # additional_dependencies: ['tslint@5.11.0']
+    # minimum_pre_commit_version: 0.7.0

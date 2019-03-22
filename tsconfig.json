@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "jsx": "react",
+        "lib": [
+            "dom",
+            "es2017",
+            "es7",
+            "es2016.array.include",
+            "es2017.object",
+        ],
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "strict": true,
+        "target": "es5",
+        "resolveJsonModule": true
+    }
+}
+
